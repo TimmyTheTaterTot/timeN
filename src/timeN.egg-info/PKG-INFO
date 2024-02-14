@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: timeN
-Version: 1
+Version: 1.1
 Summary: A simple but robust package to time any function
 License: Copyright (c) 2024 Zack Darling
         
@@ -37,7 +37,6 @@ Classifier: Programming Language :: Python :: 3 :: Only
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
-Requires-Dist: time
 
 # Package Description
 
