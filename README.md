@@ -4,9 +4,9 @@ timeN is a simple package that contains a customizable `@timen` decorator which 
 
 # Usage
 
-The timen decorator is quite simple to use. it can be imported by simply importing the timeN package with 
+The timen decorator is quite simple to use. it can be imported by simply importing it from the timeN package with 
 ```python
-import timeN
+from timeN import timeN
 ```
 From there, the timeN decorator can be used like any other decorator, with the exception that you must end the decorator in parentheses since it takes optional parameters
 ```python
