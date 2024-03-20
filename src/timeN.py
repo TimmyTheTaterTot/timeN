@@ -13,5 +13,7 @@ def timeN(n:int=10, round_to:int=2):
             if output:
                 print(f"-------------- Captured return value from function {func.__name__} --------------\n{output}")
             print(f"{func.__name__} took {round(elapsed*1000, round_to)} milliseconds to run {n} times")
+            if output:
+                return output
         return wrapper
     return decorator
