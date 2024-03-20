@@ -3,11 +3,10 @@ from time import time
 def timeN(n:int=10, round_to:int=2):
     def decorator(func):
         def wrapper(*args, **kwargs):
-            func(*args, **kwargs)
             start = time()
 
             for i in range(n):
-                output = func(*args)
+                output = func(*args, **kwargs)
 
             elapsed = time() - start
 
