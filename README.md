@@ -2,6 +2,13 @@
 
 timeN is a simple package that contains a customizable `@timen` decorator which times how long it takes (in milliseconds) for the decorated function to run n times. The decorator supports printing, forwards return values to the calling function, and can even work on recursive functions (see [A Note about Recursion](#a-note-about-recursion)).
 
+# Installation
+
+timeN can be installed and updated from PyPI using:
+```
+pip install --upgrade timeN
+```
+
 # Usage
 
 The timen decorator is quite simple to use. it can be imported by simply importing it from the timeN package with 
